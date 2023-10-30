@@ -1,0 +1,9 @@
+    import {ref, defineComponent} from 'vue'
+
+    export default defineComponent({
+        name: 'DashboardIndex',
+        setup(props, context) {
+            const align = ref('right')
+            return {align}
+        }
+    })
